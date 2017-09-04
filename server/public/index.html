@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Request Header Parser Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <br />
+        <h1>Request Header Parser Microservice</h1>
+        <div class="social-network-wrapper">
+            <div class="btn-o">
+                <a id="follow-button" class="btn btn-primary btn-sm" title="Follow @koojam_pk on Twitter" href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ffollow-button&amp;ref_src=twsrc%5Etfw&amp;region=follow_link&amp;screen_name=koojam_pk&amp;tw_p=followbutton">
+                    <i class="twitter-follow-icon"></i>
+                    <span class="label" id="l">Follow <b>@koojam_pk</b></span>
+                </a>
+            </div>
+            <div class="btn-o">
+                <a id="github-button" class="btn btn-primary btn-sm" title="Source code on Github" href="https://github.com/koojam-pk/api-request-header-parser-microservice" target="blank">
+                    <i class="github-source-icon"></i>
+                    <span class="label">Source code on Github</span>
+                </a>
+                <br />
+            </div>
+        </div>
+        <section class="story">
+            <h3>User Stories:</h3>
+            <ol>
+                <li>I can get the IP address, language and operating system for my browser</li>
+            </ol>
+        </section>
+        <div>
+            <h3>Usage</h3>
+            <span>
+                Click to run from
+                <a href="${fullUrl}/api/whoami" target="blank">
+                    <span>Glitch.com</span>
+                </a>
+            </span>
+            <br />
+            <br />
+        </div>
+        <div>
+            <h3>Example Output</h3>
+            <small class="example">
+            {
+                "ipaddress": "202.154.189.243",  
+                "language": "en-US",
+                "software": "Macintosh; Intel Mac OS X 10_12_6"
+            }
+            </small>
+        </div>
+    </div>
+</body>
+</html>
